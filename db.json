@@ -1,0 +1,634 @@
+{
+  "products": [
+    {
+        "id": 1,
+        "name": "Iphone 16 Pro Max",
+        "price": 6786.66,
+        "rating": 4,
+        "type": "Phones",
+        "image": "assets/img/phone.jpg",
+        "description": "The iPhone 16 Pro Max features a powerful chip, stunning OLED display, and advanced camera system for exceptional performance.",
+        "reviews": [
+            {
+                "reviewer": "Paul Williams",
+                "comment": "Excellent phone, but battery life could be better.",
+                "rate": 4
+            },
+            {
+                "reviewer": "Emily Davis",
+                "comment": "I love the camera quality, it's amazing!",
+                "rate": 5
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Samsung QLED 4K TV",
+        "price": 1250.99,
+        "rating": 5,
+        "type": "TVs",
+        "image": "assets/img/tv.jpg",
+        "description": "This 4K QLED TV delivers superior picture quality with vibrant colors and high dynamic range for an immersive viewing experience.",
+        "reviews": [
+            {
+                "reviewer": "John Smith",
+                "comment": "Great picture quality, but setup was a bit confusing.",
+                "rate": 4
+            },
+            {
+                "reviewer": "Sarah Lee",
+                "comment": "Incredible TV, the best I’ve ever owned!",
+                "rate": 5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "LG Smart Refrigerator",
+        "price": 899.99,
+        "rating": 4,
+        "type": "Appliances",
+        "image": "assets/img/freezer.jpg",
+        "description": "This smart refrigerator offers advanced features like touchscreen displays, energy efficiency, and Wi-Fi connectivity.",
+        "reviews": [
+            {
+                "reviewer": "Alice Green",
+                "comment": "Very convenient and modern design. Worth the price.",
+                "rate": 5
+            },
+            {
+                "reviewer": "Mark Harris",
+                "comment": "Solid refrigerator, but a bit noisy at times.",
+                "rate": 3
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Sony PlayStation 5",
+        "price": 499.99,
+        "rating": 5,
+        "type": "Video Games",
+        "image": "assets/img/x-box.jpg",
+        "description": "The PlayStation 5 offers lightning-fast load times, an immersive gaming experience, and a sleek new design.",
+        "reviews": [
+            {
+                "reviewer": "Tom Brown",
+                "comment": "Best gaming console ever, super fast and smooth!",
+                "rate": 5
+            },
+            {
+                "reviewer": "Lucy White",
+                "comment": "Great console but hard to find in stock!",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Samsung Galaxy S24 Ultra",
+        "price": 899.99,
+        "rating": 4,
+        "type": "Phones",
+        "image": "assets/img/phone.jpg",
+        "description": "The Samsung Galaxy S24 Ultra is equipped with a powerful processor, exceptional camera, and a large display for optimal user experience.",
+        "reviews": [
+            {
+                "reviewer": "James Martin",
+                "comment": "A great phone with awesome performance, but the price is high.",
+                "rate": 4
+            },
+            {
+                "reviewer": "Karen Clark",
+                "comment": "Amazing camera and screen quality!",
+                "rate": 5
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Bose QuietComfort 45",
+        "price": 329.99,
+        "rating": 5,
+        "type": "Appliances",
+        "image": "assets/img/cleaner.jpg",
+        "description": "Bose QuietComfort 45 headphones offer superior noise cancellation, exceptional sound quality, and long battery life.",
+        "reviews": [
+            {
+                "reviewer": "David King",
+                "comment": "Best noise-cancelling headphones I've used!",
+                "rate": 5
+            },
+            {
+                "reviewer": "Rachel Adams",
+                "comment": "A bit tight on the head, but sound is amazing.",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Dell XPS 13 Laptop",
+        "price": 1299.99,
+        "rating": 4,
+        "type": "Phones",
+        "image": "assets/img/phone.jpg",
+        "description": "The Dell XPS 13 is a slim and powerful laptop designed for productivity, featuring an ultra-sharp display and long battery life.",
+        "reviews": [
+            {
+                "reviewer": "Jessica Taylor",
+                "comment": "Great laptop, but can get a bit hot when used for extended periods.",
+                "rate": 4
+            },
+            {
+                "reviewer": "Michael Wright",
+                "comment": "Super fast and lightweight. Perfect for work!",
+                "rate": 5
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Apple Watch Series 8",
+        "price": 399.99,
+        "rating": 5,
+        "type": "Appliances",
+        "image": "assets/img/freezer.jpg",
+        "description": "The Apple Watch Series 8 features a sleek design, health and fitness tracking, and integration with your Apple ecosystem.",
+        "reviews": [
+            {
+                "reviewer": "Emily Scott",
+                "comment": "Love the health features and integration with my iPhone!",
+                "rate": 5
+            },
+            {
+                "reviewer": "Chris Johnson",
+                "comment": "A great smartwatch, but the battery life could be better.",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Xbox Series X",
+        "price": 499.99,
+        "rating": 5,
+        "type": "Video Games",
+        "image": "assets/img/x-box.jpg",
+        "description": "The Xbox Series X is a powerhouse of gaming, delivering impressive performance, stunning graphics, and fast load times.",
+        "reviews": [
+            {
+                "reviewer": "Matthew Harris",
+                "comment": "Incredible graphics and performance, well worth the price.",
+                "rate": 5
+            },
+            {
+                "reviewer": "Natalie Fisher",
+                "comment": "The Xbox Series X is a must-have for gamers!",
+                "rate": 5
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "LG OLED 55-Inch TV",
+        "price": 1999.99,
+        "rating": 5,
+        "type": "TVs",
+        "image": "assets/img/tv.jpg",
+        "description": "LG's OLED 55-inch TV features superior image quality, deep blacks, and wide viewing angles for an immersive experience.",
+        "reviews": [
+            {
+                "reviewer": "Steven Moore",
+                "comment": "The picture quality is phenomenal, and the TV is sleek and stylish.",
+                "rate": 5
+            },
+            {
+                "reviewer": "Helen Baker",
+                "comment": "Best TV I've ever bought, but a little pricey.",
+                "rate": 5
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Apple MacBook Air M2",
+        "price": 1199.99,
+        "rating": 5,
+        "type": "Phones",
+        "image": "assets/img/phone.jpg",
+        "description": "The MacBook Air with the M2 chip delivers incredible performance, ultra-long battery life, and a sleek design, perfect for professionals and students alike.",
+        "reviews": [
+            {
+                "reviewer": "Sophie Turner",
+                "comment": "Incredibly fast and lightweight. A joy to work on.",
+                "rate": 5
+            },
+            {
+                "reviewer": "Daniel Moore",
+                "comment": "Great performance but could use more ports.",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Sony WH-1000XM5",
+        "price": 349.99,
+        "rating": 5,
+        "type": "Appliances",
+        "image": "assets/img/freezer.jpg",
+        "description": "The Sony WH-1000XM5 headphones offer industry-leading noise cancellation, superior sound quality, and a comfortable design for long listening sessions.",
+        "reviews": [
+            {
+                "reviewer": "Olivia Martin",
+                "comment": "Best noise-cancelling headphones I've ever used.",
+                "rate": 5
+            },
+            {
+                "reviewer": "Liam Walker",
+                "comment": "Great sound, but the price is on the higher side.",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "GoPro Hero 11 Black",
+        "price": 499.99,
+        "rating": 4,
+        "type": "Appliances",
+        "image": "assets/img/cleaner.jpg",
+        "description": "The GoPro Hero 11 Black offers exceptional video quality, great stabilization, and is built for extreme conditions, making it perfect for adventure lovers.",
+        "reviews": [
+            {
+                "reviewer": "Jacob Lee",
+                "comment": "Amazing camera, but the battery drains quickly in cold weather.",
+                "rate": 4
+            },
+            {
+                "reviewer": "Emma Harris",
+                "comment": "The quality of videos is mind-blowing!",
+                "rate": 5
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Samsung Galaxy Z Fold 5",
+        "price": 1799.99,
+        "rating": 5,
+        "type": "Phones",
+        "image": "assets/img/phone.jpg",
+        "description": "The Samsung Galaxy Z Fold 5 is a revolutionary foldable smartphone that combines a large tablet experience with the convenience of a phone.",
+        "reviews": [
+            {
+                "reviewer": "Michael Adams",
+                "comment": "Incredible device. The foldable screen is so smooth!",
+                "rate": 5
+            },
+            {
+                "reviewer": "Sophia Thomas",
+                "comment": "Expensive but worth every penny for the innovation.",
+                "rate": 5
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Huawei MatePad Pro 12.6",
+        "price": 799.99,
+        "rating": 4,
+        "type": "Phones",
+        "image": "assets/img/phone.jpg",
+        "description": "The Huawei MatePad Pro is a powerful tablet with a large, vibrant display and excellent performance, making it a great choice for professionals and media consumption.",
+        "reviews": [
+            {
+                "reviewer": "Oliver Wright",
+                "comment": "Solid performance, but lacks Google services.",
+                "rate": 3
+            },
+            {
+                "reviewer": "Charlotte Harris",
+                "comment": "Fantastic display and great for multitasking!",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Microsoft Surface Pro 9",
+        "price": 999.99,
+        "rating": 4,
+        "type": "Phones",
+        "image": "assets/img/phone.jpg",
+        "description": "The Microsoft Surface Pro 9 is a versatile 2-in-1 device that works as both a tablet and a laptop, offering powerful performance in a lightweight form factor.",
+        "reviews": [
+            {
+                "reviewer": "James Wilson",
+                "comment": "Great productivity tool, but the battery life could be improved.",
+                "rate": 4
+            },
+            {
+                "reviewer": "Grace Johnson",
+                "comment": "Perfect for work, but a little too expensive for a tablet.",
+                "rate": 3
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Philips Sonicare ProtectiveClean 6100",
+        "price": 99.99,
+        "rating": 5,
+        "type": "Appliances",
+        "image": "assets/img/freezer.jpg",
+        "description": "The Philips Sonicare ProtectiveClean 6100 toothbrush offers three different modes, smart sensor technology, and superior plaque control for healthier gums and teeth.",
+        "reviews": [
+            {
+                "reviewer": "Isabella Brown",
+                "comment": "Excellent toothbrush, I feel my teeth are much cleaner.",
+                "rate": 5
+            },
+            {
+                "reviewer": "Ethan White",
+                "comment": "Works well but a bit loud during use.",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Apple AirPods Pro 2",
+        "price": 249.99,
+        "rating": 5,
+        "type": "Appliances",
+        "image": "assets/img/freezer.jpg",
+        "description": "The AirPods Pro 2 offer active noise cancellation, high-quality sound, and a comfortable fit, making them perfect for everyday use or travel.",
+        "reviews": [
+            {
+                "reviewer": "Lucas Gray",
+                "comment": "Best earbuds I've used for sound quality and comfort.",
+                "rate": 5
+            },
+            {
+                "reviewer": "Lily Clark",
+                "comment": "Excellent noise cancellation, though a bit pricey.",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Canon EOS R5",
+        "price": 3899.99,
+        "rating": 5,
+        "type": "Appliances",
+        "image": "assets/img/freezer.jpg",
+        "description": "The Canon EOS R5 is a professional mirrorless camera that offers exceptional image quality, high-speed autofocus, and 8K video recording.",
+        "reviews": [
+            {
+                "reviewer": "Victoria Lee",
+                "comment": "Best camera I've ever used for both photography and video.",
+                "rate": 5
+            },
+            {
+                "reviewer": "Samuel Johnson",
+                "comment": "Amazing image quality, but it’s a bit bulky.",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Bose SoundLink Revolve+",
+        "price": 299.99,
+        "rating": 5,
+        "type": "Appliances",
+        "image": "assets/img/freezer.jpg",
+        "description": "The Bose SoundLink Revolve+ is a portable Bluetooth speaker that delivers deep, loud sound with a 360-degree design, ideal for any setting.",
+        "reviews": [
+            {
+                "reviewer": "Henry Turner",
+                "comment": "Incredible sound quality and portability. Worth the price.",
+                "rate": 5
+            },
+            {
+                "reviewer": "Amelia Brown",
+                "comment": "Great sound, but it could be louder at higher volumes.",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Apple iPad Pro 12.9",
+        "price": 1099.99,
+        "rating": 5,
+        "type": "Phones",
+        "image": "assets/img/phone.jpg",
+        "description": "The iPad Pro 12.9 features a stunning display, fast processing power, and is perfect for creatives, students, and professionals alike.",
+        "reviews": [
+            {
+                "reviewer": "Ella Moore",
+                "comment": "Perfect for digital drawing and multitasking!",
+                "rate": 5
+            },
+            {
+                "reviewer": "Nathaniel Harris",
+                "comment": "Great performance but I wish the price was a bit lower.",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Xiaomi Mi 11 Ultra",
+        "price": 799.99,
+        "rating": 4,
+        "type": "Phones",
+        "image": "assets/img/phone.jpg",
+        "description": "Xiaomi Mi 11 Ultra offers excellent performance with a high-quality AMOLED display and powerful Snapdragon chipset.",
+        "reviews": [
+            {
+                "reviewer": "Sophia Young",
+                "comment": "Amazing display and camera, but a little bulky.",
+                "rate": 4
+            },
+            {
+                "reviewer": "William Brown",
+                "comment": "Love the performance, but the battery life could be better.",
+                "rate": 3
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Sony A7 IV Camera",
+        "price": 2499.99,
+        "rating": 5,
+        "type": "Appliances",
+        "image": "assets/img/freezer.jpg",
+        "description": "The Sony A7 IV is a full-frame mirrorless camera that delivers impressive image quality, fast autofocus, and exceptional video recording capabilities.",
+        "reviews": [
+            {
+                "reviewer": "Jack Green",
+                "comment": "Best camera for both photography and videography.",
+                "rate": 5
+            },
+            {
+                "reviewer": "Isabella White",
+                "comment": "Incredible image quality, but it’s a bit expensive.",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Nikon D850 DSLR Camera",
+        "price": 2999.99,
+        "rating": 5,
+        "type": "Appliances",
+        "image": "assets/img/freezer.jpg",
+        "description": "The Nikon D850 is a high-performance DSLR camera that excels in speed, image quality, and versatility, perfect for professional photographers.",
+        "reviews": [
+            {
+                "reviewer": "Oliver Scott",
+                "comment": "Phenomenal camera, perfect for all types of photography.",
+                "rate": 5
+            },
+            {
+                "reviewer": "Charlotte Martinez",
+                "comment": "A great camera, but the body is heavier than I expected.",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Samsung Galaxy S23 Ultra",
+        "price": 1199.99,
+        "rating": 5,
+        "type": "Phones",
+        "image": "assets/img/phone.jpg",
+        "description": "Samsung Galaxy S23 Ultra offers cutting-edge performance, a large AMOLED display, and an outstanding camera system for the perfect mobile experience.",
+        "reviews": [
+            {
+                "reviewer": "Benjamin Lee",
+                "comment": "Amazing display and camera performance!",
+                "rate": 5
+            },
+            {
+                "reviewer": "Mia Davis",
+                "comment": "Great phone, but it's a bit too big for my hands.",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Oculus Quest 2 VR Headset",
+        "price": 299.99,
+        "rating": 4,
+        "type": "Appliances",
+        "image": "assets/img/cleaner.jpg",
+        "description": "The Oculus Quest 2 offers a fantastic virtual reality experience with wireless gameplay and a wide range of immersive games and experiences.",
+        "reviews": [
+            {
+                "reviewer": "David Robinson",
+                "comment": "Great VR headset with a wide selection of games.",
+                "rate": 4
+            },
+            {
+                "reviewer": "Sarah Lee",
+                "comment": "Amazing immersion, but I wish the battery lasted longer.",
+                "rate": 3
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "LG NanoCell 65-Inch TV",
+        "price": 799.99,
+        "rating": 4,
+        "type": "TVs",
+        "image": "assets/img/tv.jpg",
+        "description": "The LG NanoCell TV delivers vibrant colors and sharp images, making it a perfect choice for those who appreciate high-quality home entertainment.",
+        "reviews": [
+            {
+                "reviewer": "Chris Martinez",
+                "comment": "Great color quality and smooth performance.",
+                "rate": 4
+            },
+            {
+                "reviewer": "Rachel Brown",
+                "comment": "Picture quality is amazing, but it could use more apps.",
+                "rate": 3
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Bose QuietComfort 35 II",
+        "price": 299.99,
+        "rating": 5,
+        "type": "Appliances",
+        "image": "assets/img/cleaner.jpg",
+        "description": "The Bose QuietComfort 35 II headphones offer top-tier noise cancellation, rich sound quality, and an extremely comfortable fit for long listening sessions.",
+        "reviews": [
+            {
+                "reviewer": "Ethan Walker",
+                "comment": "Incredible sound and noise cancellation, perfect for travel.",
+                "rate": 5
+            },
+            {
+                "reviewer": "Nina Green",
+                "comment": "Super comfortable, but they can be a bit expensive.",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Samsung 65-Inch 4K Smart TV",
+        "price": 749.99,
+        "rating": 4,
+        "type": "TVs",
+        "image": "assets/img/tv.jpg",
+        "description": "This 65-inch Samsung 4K Smart TV offers vibrant colors and 4K resolution, ideal for movie lovers and gamers alike.",
+        "reviews": [
+            {
+                "reviewer": "Jack Turner",
+                "comment": "Amazing value for a 4K TV, but the sound quality could be better.",
+                "rate": 4
+            },
+            {
+                "reviewer": "Julia Harris",
+                "comment": "Picture quality is great, but the remote control is a bit complicated.",
+                "rate": 3
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Canon EOS R6 Mirrorless Camera",
+        "price": 2499.99,
+        "rating": 5,
+        "type": "Appliances",
+        "image": "assets/img/cleaner.jpg",
+        "description": "The Canon EOS R6 is a full-frame mirrorless camera known for its exceptional low-light performance and fast autofocus, perfect for both photography and videography.",
+        "reviews": [
+            {
+                "reviewer": "Ethan Gray",
+                "comment": "Absolutely love this camera, the autofocus is amazing.",
+                "rate": 5
+            },
+            {
+                "reviewer": "Olivia Parker",
+                "comment": "Great for video, but the body can get a little hot after extended use.",
+                "rate": 4
+            }
+        ]
+    }
+  ]
+}

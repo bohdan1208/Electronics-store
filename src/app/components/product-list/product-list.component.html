@@ -1,0 +1,83 @@
+<header class="d-flex justify-content-between align-items-center p-2">
+  <div class="d-flex align-items-center">
+    <i class="bi bi-shop shop-icon"></i>
+    <h3 class="mb-0">Electronics Store</h3>
+  </div>
+  <a [routerLink]="['/cart']">
+    <button class="btn btn-primary" >
+      <i class="bi bi-cart"></i>
+      {{(selectedProducts$ | async)?.length || 0}}
+    </button>
+  </a>
+</header>
+
+<main class="p-2 d-flex justify-content-between">
+  <div class="d-flex flex-column col-2">
+    <h4>Filter</h4>
+
+    <mat-form-field class="m-1">
+      <mat-label>Name</mat-label>
+      <input matInput type="text" [(ngModel)]="name" (ngModelChange)="filterList()">
+      <button *ngIf="name" matSuffix mat-icon-button (click)="name = ''">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+
+    <mat-form-field class="m-1">
+      <mat-label>Price</mat-label>
+      <input matInput type="number" [(ngModel)]="price" (ngModelChange)="filterList()">
+      <button *ngIf="price" matSuffix mat-icon-button (click)="price = 0">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+
+    <div class="d-flex flex-column">
+      <h5>Price range</h5>
+
+      <mat-checkbox [ngModel]="priceRange.includes(ProductPriceRange.LOW)" (change)="onPriceChange(ProductPriceRange.LOW)">0 - 100$</mat-checkbox>
+      <mat-checkbox [ngModel]="priceRange.includes(ProductPriceRange.MEDIUM)" (change)="onPriceChange(ProductPriceRange.MEDIUM)">100$ - 250$</mat-checkbox>
+      <mat-checkbox [ngModel]="priceRange.includes(ProductPriceRange.HARD)" (change)="onPriceChange(ProductPriceRange.HARD)">250$+</mat-checkbox>
+    </div>
+
+    <div class="d-flex flex-column">
+      <h5>Type</h5>
+
+      <mat-checkbox
+        [ngModel]="selectedTypes.includes(ProductType.Appliances)"
+        (change)="onTypeChange(ProductType.Appliances)"
+      >{{ProductType.Appliances}}</mat-checkbox>
+      <mat-checkbox
+        [ngModel]="selectedTypes.includes(ProductType.TVs)"
+        (change)="onTypeChange(ProductType.TVs)"
+      >{{ProductType.TVs}}</mat-checkbox>
+      <mat-checkbox
+        [ngModel]="selectedTypes.includes(ProductType.VideoGames)"
+        (change)="onTypeChange(ProductType.VideoGames)"
+      >{{ProductType.VideoGames}}</mat-checkbox>
+      <mat-checkbox
+        [ngModel]="selectedTypes.includes(ProductType.Phones)"
+        (change)="onTypeChange(ProductType.Phones)"
+      >{{ProductType.Phones}}</mat-checkbox>
+    </div>
+  </div>
+  <div class="col-9">
+    <div class="product-grid">
+      <div *ngFor="let product of products$ | async" class="product-card" (click)="openDialog(product)">
+        <img
+          class="img"
+          [src]="product.image"
+          alt="{{ product.name }}"
+        >
+        <h4>{{ product.name }}</h4>
+        <p><strong>Price: ${{ product.price }}</strong></p>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center mt-xs">
+      <button class="btn btn-primary" (click)="load()">
+        <i class="bi bi-cloud-download"></i>
+        Load more
+      </button>
+    </div>
+  </div>
+</main>

@@ -1,0 +1,40 @@
+<h2 mat-dialog-title>{{ data.product.name }}</h2>
+
+<mat-dialog-content class="mat-typography">
+  <img
+    class="img"
+    [src]="data.product.image"
+    alt="{{ data.product.name }}"
+  >
+  <p><strong>Price:</strong> ${{ data.product.price }}</p>
+  <p><strong>Description:</strong> {{ data.product.description }}</p>
+  <p><strong>Rating:</strong> {{ data.product.rating }}</p>
+
+  <mat-table [dataSource]="data.product.reviews" class="mat-elevation-z8">
+    <ng-container matColumnDef="reviewer">
+      <mat-header-cell *matHeaderCellDef> Reviewer </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.reviewer}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="comment">
+      <mat-header-cell *matHeaderCellDef> Comment </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.comment}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="rate">
+      <mat-header-cell *matHeaderCellDef> Rate </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.rate}} </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-stroked-button (click)="data.addToCart()">
+    <i class="bi bi-cart-plus"></i>
+    Add to Cart
+  </button>
+</mat-dialog-actions>

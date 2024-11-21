@@ -1,0 +1,59 @@
+<header class="d-flex justify-content-between align-items-center p-2">
+  <div class="d-flex align-items-center">
+    <i class="bi bi-shop-window shop-icon"></i>
+    <h3 class="mb-0">Cart</h3>
+  </div>
+  <a [routerLink]="['/']">
+    <button class="btn btn-primary">
+      Return to shop
+    </button>
+  </a>
+</header>
+
+<main class="p-2">
+  <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <ng-container matColumnDef="image">
+      <mat-header-cell *matHeaderCellDef>Image</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <img
+          class="img"
+          [src]="element.image"
+          alt="{{ element.name }}"
+        >
+      </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="name">
+      <mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="price">
+      <mat-header-cell *matHeaderCellDef> Price </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.price}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="rate">
+      <mat-header-cell *matHeaderCellDef> Rating </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.rating}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="remove">
+      <mat-header-cell *matHeaderCellDef></mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <button class="btn btn-danger" (click)="removeItem(element)">
+          Delete
+        </button>
+      </mat-cell>
+    </ng-container>
+
+    <tr class="d-block" *matNoDataRow>
+      <div class="d-flex align-items-center justify-content-center p-4">
+        There is no selected items
+      </div>
+    </tr>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+</main>
